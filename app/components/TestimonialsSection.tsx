@@ -79,7 +79,7 @@ const TestimonialsSection = () => {
 
                 {/* Texto do depoimento */}
                 <p className="text-text-main leading-relaxed mb-6 relative z-10">
-                  "{testimonial.text}"
+                  &ldquo;{testimonial.text}&rdquo;
                 </p>
 
                 {/* Autor */}
