@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
               </a>
               <a
-                href="https://wa.me/5517999999999"
+                href="https://wa.me/5517997723577?text=Olá! Gostaria de informações sobre horários e agendamento."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group"
@@ -115,12 +115,12 @@ const Footer = () => {
               <li className="flex items-center gap-3 text-white/80">
                 <Phone size={18} className="text-[#D4A373] flex-shrink-0" />
                 <a
-                  href="https://wa.me/5517999999999"
+                  href="https://wa.me/5517997723577?text=Olá! Gostaria de informações sobre horários e agendamento."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="relative group inline-block hover:text-white transition-colors"
                 >
-                  (17) 99999-9999
+                  (17) 99772-3577
                   <span className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#D4A373] group-hover:w-full transition-all duration-300 ease-out" />
                 </a>
               </li>

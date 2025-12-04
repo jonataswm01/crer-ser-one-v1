@@ -88,7 +88,9 @@ const ServicesSection = () => {
 
                   {/* Link */}
                   <a
-                    href={service.href}
+                    href={`https://wa.me/5517997723577?text=Olá! Gostaria de saber mais sobre os atendimentos de ${encodeURIComponent(service.title)}.`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-primary font-semibold group/link hover:gap-3 transition-all"
                   >
                     Saiba mais

@@ -36,7 +36,7 @@ const ContactSection = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 {/* Botão Primary - WhatsApp */}
                 <motion.a
-                  href="https://wa.me/5517999999999"
+                  href="https://wa.me/5517997723577?text=Olá! Gostaria de informações sobre horários e agendamento."
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.02, y: -2 }}
@@ -55,7 +55,7 @@ const ContactSection = () => {
 
                 {/* Botão Outline - Google Maps */}
                 <motion.a
-                  href="https://maps.google.com/?q=Rua+Cel.+Relíquias+Guimarães,+72+-+Vila+Toninho,+Santa+Adélia+-+SP"
+                  href="https://www.google.com/maps/search/?api=1&query=Rua+Cel.+Relíquias+Guimarães,+72,+Vila+Toninho,+Santa+Adélia+-+SP"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.02, y: -2 }}
@@ -75,13 +75,18 @@ const ContactSection = () => {
 
               {/* Dados de Contato */}
               <div className="space-y-2 pt-4 border-t border-white/20">
-                <div className="flex items-start gap-3 text-sm text-text-muted">
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Rua+Cel.+Relíquias+Guimarães,+72,+Vila+Toninho,+Santa+Adélia+-+SP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-3 text-sm text-text-muted hover:text-primary transition-colors"
+                >
                   <MapPin size={16} className="text-primary mt-0.5 flex-shrink-0" />
                   <p>
                     Rua Cel. Relíquias Guimarães, 72 - Vila Toninho, Santa Adélia
                     - SP
                   </p>
-                </div>
+                </a>
                 <div className="flex items-start gap-3 text-sm text-text-muted">
                   <Mail size={16} className="text-primary mt-0.5 flex-shrink-0" />
                   <p>contato@crerser.com.br</p>

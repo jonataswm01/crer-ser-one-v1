@@ -44,7 +44,9 @@ const HeroSection = () => {
               className="flex flex-col gap-4 pt-4"
             >
               <motion.a
-                href="#contato"
+                href="https://wa.me/5517997723577?text=Olá! Vim pelo site e gostaria de agendar uma consulta com a Dra. Alaídes."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full lg:w-auto glass-medium px-8 py-4 rounded-full text-text-main font-semibold flex items-center justify-center gap-2 hover:glass-strong transition-all group"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}

@@ -26,8 +26,9 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  title: "Crer & Ser - Psicologia de Alto Padrão",
-  description: "Clínica de psicologia especializada em cuidados de alto padrão",
+  title: "Crer & Ser | Psicóloga em Santa Adélia - Dra. Alaídes Franco",
+  description: "Psicologia Clínica, Psicopedagogia e Constelação Familiar. Atendimento presencial e online focado em acolhimento e resultados. Agende sua sessão.",
+  keywords: "Psicóloga Santa Adélia, Terapia Online, Constelação Familiar, Psicopedagogia, Dra Alaídes Franco, Crer e Ser",
 };
 
 export default function RootLayout({
